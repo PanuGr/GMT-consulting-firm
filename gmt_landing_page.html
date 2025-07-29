@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23374151'/><text x='50' y='60' text-anchor='middle' fill='white' font-size='40' font-family='Arial'>G</text></svg>" type="image/svg+xml">
+    
+    <!--Basic SEO-->
+    <title>GMT International Consulting - Empowering Talent & Restoring Vitality</title>
+    <meta name="description" content="GMT International Consulting specializes in empowering talent and restoring vitality to the life science industry. Professional consulting services for modern businesses.">
+    <meta name="keywords" content="life science consulting, talent empowerment, business consulting, GMT International, vitality restoration">
+    <meta name="author" content="GMT International Consulting">
+    
+    <!-- Atkinson Hyperlegible Font -->
+    <link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i" rel="stylesheet">
+    
+    <!-- DaisyUI + Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Ionicons -->
+    <script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    
+    <!--AnimateCSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <style>
+        /* RESET CSS */
+        :root {
+            interpolate-size: allow-keywords;
+            --font: 'atkinson-hyperlegible', system-ui;
+            --primary-color: #3b82f6;
+            --secondary-color: #6b7280;
+            --accent: #1f2937;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            max-width: 1920px;
+            margin: auto;
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+
+        body {
+            min-height: 100dvh;
+            font-family: var(--font);
+            text-rendering: optimizeSpeed;
+            background-color: #ffffff;
+        }
+
+        img,
+        svg,
+        video,
+        picture {
+            max-width: 100%;
+            display: block;
+            height: auto;
+        }
+
+        input,
+        button,
+        textarea,
+        select {
+            font: inherit;
+            field-sizing: content;
+        }
+
+        footer {
+            content-visibility: auto;
+            margin-top: auto;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .navbar-scroll {
+            transition: transform 0.3s ease;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            * {
+                animation: none;
+                transition: none;
+            }
+        }
+
+        /* Skip link for accessibility */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 6px;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar bg-white shadow-sm border-b border-gray-100 navbar-scroll sticky top-0 z-50" id="navbar">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <button tabindex="0" type="button" id="menu-toggle" aria-label="Toggle navigation menu"
+                    class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </button>
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 w-52 p-2 shadow-lg border border-gray-100">
+                    <li><a href="#home" class="text-gray-700 hover:text-blue-600">Home</a></li>
+                    <li>
+                        <a class="text-gray-700 hover:text-blue-600">Services</a>
+                        <ul class="p-2 bg-gray-50 rounded-box">
+                            <li><a href="#talent-empowerment" class="text-gray-600 hover:text-blue-600">Talent Empowerment</a></li>
+                            <li><a href="#vitality-restoration" class="text-gray-600 hover:text-blue-600">Vitality Restoration</a></li>
+                            <li><a href="#strategic-consulting" class="text-gray-600 hover:text-blue-600">Strategic Consulting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about" class="text-gray-700 hover:text-blue-600">About</a></li>
+                    <li><a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center space-x-3">
+                <!-- Logo placeholder - would be replaced with actual logo -->
+                <div class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center">
+                    <span class="text-white font-bold text-sm">GMT</span>
+                </div>
+                <h1><a href="#home" class="text-xl font-bold text-gray-800">GMT International</a></h1>
+            </div>
+        </div>
+        
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="#home" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a></li>
+                <li>
+                    <details>
+                        <summary class="text-gray-700 hover:text-blue-600 transition-colors">Services</summary>
+                        <ul class="p-2 bg-white shadow-lg border border-gray-100 rounded-box">
+                            <li><a href="#talent-empowerment" class="text-gray-600 hover:text-blue-600">Talent Empowerment</a></li>
+                            <li><a href="#vitality-restoration" class="text-gray-600 hover:text-blue-600">Vitality Restoration</a></li>
+                            <li><a href="#strategic-consulting" class="text-gray-600 hover:text-blue-600">Strategic Consulting</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li><a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors">About</a></li>
+                <li><a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="navbar-end space-x-4">
+            <a href="#" class="btn btn-ghost text-blue-600 hover:text-blue-700">
+                <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+                LinkedIn
+            </a>
+            <a href="#" class="btn btn-ghost text-blue-600 hover:text-blue-700">
+                <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                Instagram
+            </a>
+            <a href="#" class="btn btn-primary bg-blue-600 hover:bg-blue-700 border-blue-600 text-white">
+                <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                Schedule Consultation
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero min-h-screen hero-gradient">
+        <div class="hero-content text-center max-w-6xl mx-auto px-4">
+            <div class="animate__animated animate__fadeInUp">
+                <!-- Logo Section -->
+                <div class="mb-8">
+                    <div class="w-32 h-32 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-white font-bold text-4xl">GMT</span>
+                    </div>
+                    <h1 class="text-4xl lg:text-6xl font-bold text-gray-800 mb-2">GMT INTERNATIONAL</h1>
+                    <h2 class="text-2xl lg:text-3xl font-semibold text-gray-600 mb-2">CONSULTING</h2>
+                </div>
+                
+                <h3 class="text-3xl lg:text-4xl font-bold text-gradient mb-8">
+                    EMPOWERING TALENT<br>& RESTORING VITALITY
+                </h3>
+                
+                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Specializing in transformative consulting solutions for the life science industry. 
+                    We empower organizations to unlock their potential and revitalize their workforce.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button type="button" class="btn btn-primary btn-lg bg-blue-600 hover:bg-blue-700 border-blue-600 text-white px-8">
+                        <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                        Schedule Consultation
+                    </button>
+                    <button type="button" class="btn btn-outline btn-lg border-gray-400 text-gray-700 hover:bg-gray-100 px-8">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">About GMT International</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        A woman-owned consulting business dedicated to empowering talent and restoring vitality 
+                        to the life science industry through innovative solutions and strategic partnerships.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-3xl font-bold text-gray-800 mb-6">Our Mission</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            We believe that every organization has untapped potential waiting to be unlocked. 
+                            Our mission is to provide strategic consulting that not only addresses immediate challenges 
+                            but creates lasting transformation.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <ion-icon name="checkmark-circle" class="text-blue-600 text-xl mt-1" aria-hidden="true"></ion-icon>
+                                <span class="text-gray-700">Expert guidance in life science industry</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <ion-icon name="checkmark-circle" class="text-blue-600 text-xl mt-1" aria-hidden="true"></ion-icon>
+                                <span class="text-gray-700">Tailored solutions for unique challenges</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <ion-icon name="checkmark-circle" class="text-blue-600 text-xl mt-1" aria-hidden="true"></ion-icon>
+                                <span class="text-gray-700">Sustainable growth and transformation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                             alt="Professional consulting meeting" 
+                             class="rounded-lg shadow-lg"
+                             loading="lazy" 
+                             decoding="async">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Comprehensive consulting solutions designed to transform your organization 
+                        and drive sustainable success in the life science industry.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div id="talent-empowerment" class="card bg-white shadow-lg card-hover">
+                        <figure class="px-6 pt-6">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                                <ion-icon name="people" class="text-blue-600 text-2xl" aria-hidden="true"></ion-icon>
+                            </div>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title text-gray-800">Talent Empowerment</h3>
+                            <p class="text-gray-600">
+                                Unlock the full potential of your workforce through strategic talent development, 
+                                leadership coaching, and organizational culture transformation.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div id="vitality-restoration" class="card bg-white shadow-lg card-hover">
+                        <figure class="px-6 pt-6">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                                <ion-icon name="leaf" class="text-blue-600 text-2xl" aria-hidden="true"></ion-icon>
+                            </div>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title text-gray-800">Vitality Restoration</h3>
+                            <p class="text-gray-600">
+                                Revitalize your organization's energy and purpose, creating sustainable practices 
+                                that promote long-term success and employee wellbeing.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div id="strategic-consulting" class="card bg-white shadow-lg card-hover">
+                        <figure class="px-6 pt-6">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                                <ion-icon name="trending-up" class="text-blue-600 text-2xl" aria-hidden="true"></ion-icon>
+                            </div>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title text-gray-808">Strategic Consulting</h3>
+                            <p class="text-gray-600">
+                                Comprehensive strategic planning and implementation services tailored 
+                                specifically for life science organizations and their unique challenges.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 bg-blue-600">
+            <div class="container mx-auto px-4 max-w-4xl text-center">
+                <h2 class="text-4xl font-bold text-white mb-6">Ready to Transform Your Organization?</h2>
+                <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                    Let's discuss how GMT International Consulting can help empower your talent 
+                    and restore vitality to your business.
+                </p>
+                <button type="button" class="btn btn-primary btn-lg bg-white text-blue-600 hover:bg-gray-100 border-white px-8">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    Schedule Your Consultation
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white py-16">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                            <span class="text-gray-800 font-bold text-sm">GMT</span>
+                        </div>
+                        <h3 class="text-2xl font-bold">GMT International Consulting</h3>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Empowering talent and restoring vitality to the life science industry 
+                        through innovative consulting solutions.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <ion-icon name="logo-linkedin" class="text-2xl" aria-hidden="true"></ion-icon>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <ion-icon name="logo-instagram" class="text-2xl" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Get In Touch</h4>
+                    <div class="space-y-3">
+                        <a href="#" class="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
+                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                            <span>Schedule Consultation</span>
+                        </a>
+                        <a href="#" class="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                            <span>Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center">
+                <p class="text-gray-400">
+                    © 2024 GMT International Consulting. All rights reserved. | Woman-Owned Business
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll behavior
+        let lastScrollTop = 0;
+        const navbar = document.getElementById('navbar');
+        
+        window.addEventListener('scroll', function () {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > lastScrollTop && scrollTop > 80) {
+                navbar.style.transform = 'translateY(-100%)';
+            } else {
+                navbar.style.transform = 'translateY(0)';
+            }
+            lastScrollTop = scrollTop;
+        });
+
+        // Mobile menu functionality
+        const menuToggle = document.getElementById('menu-toggle');
+        const dropdownMenu = document.querySelector('.dropdown-content');
+        
+        // Close menu when clicking a link (mobile)
+        document.querySelectorAll('.menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (menuToggle) {
+                    menuToggle.blur();
+                }
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll-based animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+                }
+            });
+        }, observerOptions);
+
+        // Observe cards for animation
+        document.querySelectorAll('.card').forEach(card => {
+            observer.observe(card);
+        });
+    </script>
+</body>
+
+</html>
